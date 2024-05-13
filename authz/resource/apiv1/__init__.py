@@ -1,5 +1,5 @@
 from authz.authz import apiv1 as api
-from authz.resourse.apiv1.user import UserResourse
+from authz.resource.apiv1.user import UserResourse
 
 api.add_resource(
     UserResourse,

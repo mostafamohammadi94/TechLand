@@ -1,4 +1,4 @@
-from flask_restful import Resourse
+from flask_restful import Resource
 from authz.controller.apiv1 import UserController
 
 class UserResourse(Resource):

@@ -21,7 +21,7 @@ DEBUG_MSG_CODES = {
     "117" : "Role Not Found"
 }
 
-def jsonify(state{}, metadata{}, status=200, code=100, headers={}):
+def jsonify(state={}, metadata={}, status=200, code=100, headers={}):
     data = state
     data.updade(metadata)
     if current_app.debug:
