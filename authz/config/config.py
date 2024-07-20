@@ -12,7 +12,7 @@ class Config:
 
     TIMEZONE = environ.get("TECHLAND_AUTHZ_TIMEZONE", "Asia/Tehran")
 
-    SQLALCHEMY_DATABASE_URI = environ.get("TECHLAND_AUTHZ_DATABASE_URI", None)
+    SQLALCHEMY_DATABASE_URI = environ.get("TECHLAND_AUTHZ_DATABASE_URI", "mysql+pymysql://root:test@localhost:3306/test")
 
     SQLALCHEMY_ECHO = DEBUG
 
